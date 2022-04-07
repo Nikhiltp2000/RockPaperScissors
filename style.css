@@ -61,5 +61,100 @@ body {
      letter-spacing: 2.5px;
 }
 
+.hands {
+     width: 476px;
+     height: 430px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 100px;
+     background-image: url(/images/triangle.png);
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.scissors {
+     margin-left: 20px;
+}
+
+.paper {
+     margin-right: 20px;
+}
+
+.hands .hand {
+     cursor: pointer;
+     transition: all 0.25s;
+}
+
+.hands .hand:hover {
+     transform: translate(0px, -8px);
+}
+
+.contest {
+     width: 900px;
+     display: none;
+     margin-top: 50px;
+
+
+}
+
+
+.contest img {
+     width: 275px;
+     height: 275px;
+}
+
+
+.contest > div {
+     flex: 1;
+}
+
+
+.contest h1 {
+     color: white;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 50px;
+     text-align: center;
+}
+
+
+.contest .handImageContainer {
+     display: flex;
+     justify-content: center;
+
+}
+
+.referee {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.referee h1 {
+     font-size: 45px;
+}
+
+
+
+.newGame {
+     background-color: white;
+     padding: 14px 28px;
+     border-radius: 6px;
+     cursor: pointer;
+     color: hsl(229, 25%, 31%);
+     transition: all 0.15s;
+     text-align: center;
+}
+
+.newGame:hover {
+     background-color: bisque;
+     transform: translate3d(0px, -2px, 0px);
+
+
+}
+
 
 
